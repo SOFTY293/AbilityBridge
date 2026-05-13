@@ -1,0 +1,5 @@
+package com.abilitybridge.notification.entity;
+public enum NotificationType {
+    APPLICATION_UPDATE, TASK_ASSIGNED, TASK_SUBMITTED, MESSAGE_RECEIVED,
+    MATCH_FOUND, BADGE_AWARDED, REPORT_UPDATE, INTERVIEW_SCHEDULED
+}
