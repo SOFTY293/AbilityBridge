@@ -1,0 +1,63 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome
+
+## exception
+
+DartDevelopmentServiceException: DartDevelopmentServiceException: Failed to start Dart Development Service
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.38.1, on Microsoft Windows [Version 10.0.22631.4460], locale en-GB) [624ms]
+    [32m•[39m Flutter version 3.38.1 on channel stable at C:\Users\tchig\src\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision b45fa18946 (6 months ago), 2025-11-12 22:09:06 -0600
+    [32m•[39m Engine revision b5990e5ccc
+    [32m•[39m Dart version 3.10.0
+    [32m•[39m DevTools version 2.51.1
+    [32m•[39m Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios,
+      cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
+
+[32m[✓][39m Windows Version (11 Home 64-bit, 23H2, 2009) [25.9s]
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK version 36.1.0) [67.5s]
+    [32m•[39m Android SDK at C:\Users\tchig\AppData\Local\Android\Sdk
+    [32m•[39m Emulator version unknown
+    [32m•[39m Platform android-36, build-tools 36.1.0
+    [32m•[39m ANDROID_HOME = C:\Users\tchig\AppData\Local\Android\Sdk
+    [32m•[39m ANDROID_SDK_ROOT = C:\Users\tchig\AppData\Local\Android\Sdk
+    [32m•[39m Java binary at: C:\Android\android-studio\jbr\bin\java
+      This is the JDK bundled with the latest Android Studio installation on this machine.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m Chrome - develop for the web [5.5s]
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[32m[✓][39m Visual Studio - develop Windows apps (Visual Studio Community 2022 17.14.20) [5.5s]
+    [32m•[39m Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    [32m•[39m Visual Studio Community 2022 version 17.14.36705.20
+    [32m•[39m Windows 10 SDK version 10.0.26100.0
+
+[32m[✓][39m Connected device (3 available) [20.9s]
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.4460]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 147.0.7727.102
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 147.0.3912.86
+
+[33m[!][39m Network resources [28.8s]
+    [31m✗[39m A network error occurred while checking "https://pub.dev/": Failed host lookup: 'pub.dev'
+    [31m✗[39m A network error occurred while checking "https://storage.googleapis.com/": Failed host lookup: 'storage.googleapis.com'
+    [31m✗[39m A network error occurred while checking "https://maven.google.com/": Failed host lookup: 'maven.google.com'
+    [31m✗[39m A network error occurred while checking "https://cocoapods.org/": Failed host lookup: 'cocoapods.org'
+    [31m✗[39m A network error occurred while checking "https://github.com/": Failed host lookup: 'github.com'
+
+[33m![39m Doctor found issues in 1 category.
+```
