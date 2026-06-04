@@ -1,0 +1,5 @@
+ALTER TABLE task_ratings
+    ALTER COLUMN score TYPE INTEGER USING score::INTEGER;
+
+ALTER TABLE employer_ratings
+    ALTER COLUMN score TYPE INTEGER USING score::INTEGER;
